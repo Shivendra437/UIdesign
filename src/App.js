@@ -2,6 +2,7 @@
 // import Premium from "./Component/Premium";
 // import Upgradebutton from "./Component/Upgradebutton";
 // import Free from "./Component/Free";
+import Free from "./Component/Free";
 import "./styles.css";
 
 export default function App() {
@@ -15,7 +16,7 @@ export default function App() {
       {/* <Heading name="Experience the full power of QuillBot" /> */}
       <br />
       {/* <Premium /> */}
-   
+      <Free />
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import { Grid } from "@mui/material";
-import Free from './Free';
+// import Free from './Free';
 export default function Premium() {
   return (
     <Grid container justifyContent="space-around">

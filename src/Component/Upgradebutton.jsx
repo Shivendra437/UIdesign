@@ -1,18 +1,16 @@
-import React from 'react';
-import {Button} from '@mui/material';
-export default function Upgradebutton(){
+import React from "react";
+import { Button } from "@mui/material";
+export default function Upgradebutton(props) {
   return (
-<>
-<Button  style={{borderRadius:50}}
-variant='contained'color='success'
-> Upgrade to Quillbot premium
- 
-
-  </Button>
-
-</>
-  )
-
-
-
+    <>
+      <Button
+        style={{ borderRadius: 50, minWidth: "260px" }}
+        variant="contained"
+        color="success"
+      >
+        {" "}
+        {props.name}
+      </Button>
+    </>
+  );
 }
