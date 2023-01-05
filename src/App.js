@@ -1,19 +1,21 @@
-import Heading from "./Component/Heading";
-import Premium from "./Component/Premium";
-import Upgradebutton from "./Component/Upgradebutton";
+// import Heading from "./Component/Heading";
+// import Premium from "./Component/Premium";
+// import Upgradebutton from "./Component/Upgradebutton";
+// import Free from "./Component/Free";
 import "./styles.css";
 
 export default function App() {
   return (
     <div className="App">
-      <Heading name="Save time and write with confidence" />
+      {/* <Heading name="Save time and write with confidence" /> */}
       <br />
-      <Upgradebutton />
+      {/* <Upgradebutton /> */}
       <br />
       <br />
-      <Heading name="Experience the full power of QuillBot" />
+      {/* <Heading name="Experience the full power of QuillBot" /> */}
       <br />
-      <Premium />
+      {/* <Premium /> */}
+   
     </div>
   );
 }
