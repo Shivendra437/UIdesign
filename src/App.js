@@ -1,10 +1,13 @@
+import Heading from "./Component/Heading";
+import Upgradebutton from "./Component/Upgradebutton";
 import "./styles.css";
 
 export default function App() {
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+     <Heading name="Save time and write with confidence"/>
+   <br/>
+    <Upgradebutton/>
     </div>
   );
 }
