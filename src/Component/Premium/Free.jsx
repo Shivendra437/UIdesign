@@ -1,7 +1,7 @@
 import React from "react";
 import { Box } from "@mui/material";
 import { List, ListItem, ListItemText, divider } from "@mui/material";
-import Upgradebutton from "./Upgradebutton";
+
 import DoneIcon from "@mui/icons-material/Done";
 import CloseIcon from "@mui/icons-material/Close";
 let arr = [
