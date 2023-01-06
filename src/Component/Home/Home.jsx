@@ -1,8 +1,5 @@
 import React from "react";
-import LinearDeterminate from "../Progress/LinearProgress";
-// import newAvailableWord from "./newAvailableWord.jpg";
-// import comparisonTable from "./comparisonTable.svg";
-// import plagpremium from "./plagpremium.svg";
+import Linear from "../Linear";
 import synonym from "./synonym.svg";
 export default function Home() {
   const dummyData = [
@@ -52,7 +49,7 @@ export default function Home() {
             <div style={{ width: "50%", textAlign: "inline-start" }} key={i}>
               <h3 style={{ color: "green" }}>{el.title}</h3>
               <p>{el.description}</p>
-              <LinearDeterminate />
+              <Linear />
             </div>
           );
         })}
