@@ -1,5 +1,5 @@
 import React from "react";
-import Linear from "../Linear";
+import Linear from "./Linear";
 import synonym from "./synonym.svg";
 export default function Home() {
   const dummyData = [
@@ -21,16 +21,6 @@ export default function Home() {
       description: "Paraphrase in and compare outputs from all seven modes."
     }
   ];
-  // const [ind, setIndex] = useState(0);
-
-  // useEffect(() => {
-  //   if (interval) {
-  //     clearInterval(interval);
-  //   }
-  //   interval = setInterval(() => {
-  //     setIndex((ind) => (ind + 1) % images.length);
-  //   }, 1500);
-  // }, [interval]);
 
   return (
     <div

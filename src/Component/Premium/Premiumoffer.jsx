@@ -1,7 +1,7 @@
 import React from "react";
 import { Box, List, ListItem, ListItemText } from "@mui/material";
 import DiamondIcon from "@mui/icons-material/Diamond";
-import Upgradebutton from "./Upgradebutton";
+import Upgradebutton from "../Upgradebutton";
 import DoneIcon from "@mui/icons-material/Done";
 import ErrorOutlineRoundedIcon from "@mui/icons-material/ErrorOutlineRounded";
 
