@@ -22,7 +22,7 @@ let arr2 = [
 export default function Free() {
   return (
     <Box style={{ border: "2px solid black", height: "650px", width: "300px" }}>
-      <List divider>
+      <List>
         <ListItem
           divider
           style={{ background: "green", borderRadius: 4, color: "white" }}
@@ -45,6 +45,7 @@ export default function Free() {
           </ListItem>
         ))}
       </List>
+      <div>NO credit card Required</div>
     </Box>
   );
 }
