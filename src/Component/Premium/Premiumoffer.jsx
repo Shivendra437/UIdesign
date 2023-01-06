@@ -23,7 +23,7 @@ export default function Premiumoffer() {
     <Box
       style={{
         //  border: "2px solid black",
-        width: "340px"
+        width: "400px"
       }}
     >
       <List>

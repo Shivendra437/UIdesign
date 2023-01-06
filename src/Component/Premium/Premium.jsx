@@ -4,7 +4,7 @@ import Free from "./Free";
 import Premiumoffer from "./Premiumoffer";
 export default function Premium() {
   return (
-    <Grid container justifyContent>
+    <Grid container justifyContent="space-around">
       <Grid>
         <Free />
         {/* <h1 style={{ backgroundColor: "green" }}>blockg</h1> */}

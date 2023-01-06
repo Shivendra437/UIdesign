@@ -1,6 +1,6 @@
 import { Typography } from "@mui/material";
 import React from "react";
-import CircularStatic from "./CircularProgressWithLabel";
+import CircularStatic from "./CircularprogressWithLabel";
 
 export default function Progress() {
   return (

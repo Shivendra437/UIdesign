@@ -24,7 +24,7 @@ export default function Free() {
     <Box
       style={{
         // border: "2px solid black",
-        width: "300px",
+        width: "400px",
         boxShadow: "5px 5px white"
       }}
     >

@@ -21,7 +21,13 @@ let arr2 = [
 
 export default function Free() {
   return (
-    <Box style={{ border: "2px solid black", height: "650px", width: "300px" }}>
+    <Box
+      style={{
+        //  border: "2px solid black",
+        // height: "650px",
+        width: "500px"
+      }}
+    >
       <List>
         <ListItem
           divider
