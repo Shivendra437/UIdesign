@@ -1,7 +1,7 @@
 import React from "react";
 import { Box } from "@mui/material";
 import { List, ListItem, ListItemText, divider } from "@mui/material";
-import Upgradebutton from "./Upgradebutton";
+import Upgradebutton from "../Upgradebutton";
 import DoneIcon from "@mui/icons-material/Done";
 import CloseIcon from "@mui/icons-material/Close";
 let arr = [
@@ -21,7 +21,13 @@ let arr2 = [
 
 export default function Free() {
   return (
-    <Box style={{ border: "2px solid black", height: "650px", width: "300px" }}>
+    <Box
+      style={{
+        // border: "2px solid black",
+        width: "300px",
+        boxShadow: "5px 5px white"
+      }}
+    >
       <List>
         <ListItem
           divider
@@ -38,14 +44,26 @@ export default function Free() {
             <ListItemText primary={el} />
           </ListItem>
         ))}
-        {arr.map((el) => (
+        {arr2.map((el) => (
           <ListItem divider>
             <CloseIcon style={{ color: "red", fontSize: "medium" }} />
             <ListItemText primary={el} />
           </ListItem>
         ))}
       </List>
-      <div>NO credit card Required</div>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          background: "grey",
+          height: "30px",
+          marginTop: -8,
+          borderRadius: 4
+        }}
+      >
+        NO credit card Required
+      </div>
     </Box>
   );
 }

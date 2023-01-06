@@ -1,7 +1,11 @@
 import React from "react";
-// import Footer from './Component/Footer';
+import Premium from "./Component/Premium/Premium";
 import "./styles.css";
 
 export default function App() {
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      <Premium />
+    </div>
+  );
 }

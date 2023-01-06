@@ -1,7 +1,7 @@
 import React from "react";
 import { Box, List, ListItem, ListItemText } from "@mui/material";
 import DiamondIcon from "@mui/icons-material/Diamond";
-import Upgradebutton from "./Upgradebutton";
+import Upgradebutton from "../Upgradebutton";
 import DoneIcon from "@mui/icons-material/Done";
 import ErrorOutlineRoundedIcon from "@mui/icons-material/ErrorOutlineRounded";
 
@@ -20,7 +20,12 @@ let arr = [
 
 export default function Premiumoffer() {
   return (
-    <Box style={{ border: "2px solid black", width: "330px" }}>
+    <Box
+      style={{
+        //  border: "2px solid black",
+        width: "340px"
+      }}
+    >
       <List>
         <ListItem
           divider
@@ -45,11 +50,13 @@ export default function Premiumoffer() {
           style={{
             display: "flex",
             justifyContent: "center",
+            alignItems: "center",
             background: "grey",
-            height: "40px"
+            height: "30px",
+            borderRadius: 4
           }}
         >
-          3-DMoney-Back Gurantee
+          3-Day Money-Back Gurantee
         </div>
       </List>
     </Box>

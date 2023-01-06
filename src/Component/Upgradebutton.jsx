@@ -8,7 +8,6 @@ export default function Upgradebutton(props) {
         variant="contained"
         color="success"
       >
-        {" "}
         {props.name}
       </Button>
     </>
